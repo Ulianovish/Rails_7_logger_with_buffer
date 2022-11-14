@@ -1,24 +1,17 @@
-# README
+# Ruby Code Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using the ActiveSupport Logger to outputs formated logs
 
-Things you may want to cover:
+## Setup the Project
 
-* Ruby version
+```bash
+gem install bundle
+bundle install
+bundle
+```
 
-* System dependencies
+## How to run the test
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rspec spec/loggers/my_custom_logger_spec.rb
+```
